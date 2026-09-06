@@ -1,4 +1,12 @@
 package chapter_1;
 
+import java.util.Scanner;
+
 public class Task_7 {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int x = scanner.nextInt();
+        double y = x/3;
+        System.out.println("x=" + x + " y=" + y);
+    }
 }
