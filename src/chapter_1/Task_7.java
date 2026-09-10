@@ -6,7 +6,7 @@ public class Task_7 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
-        double y = x/3;
+        double y = (double)x/3;
         System.out.println("x=" + x + " y=" + y);
     }
 }
